@@ -1,0 +1,14 @@
+build/
+out/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.lib
+*.exe
+/app
+.vscode/
+.idea/
+.DS_Store
+compile_commands.json
