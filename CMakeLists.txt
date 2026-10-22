@@ -51,3 +51,7 @@ if (BUILD_TESTING)
     set_target_properties(test_unit test_integration PROPERTIES
         RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")
 endif()
+
+# ---- Пример по варианту ----
+add_executable(variant_13 examples/variant_13.cpp)
+target_link_libraries(variant_13 PRIVATE arraylib)
